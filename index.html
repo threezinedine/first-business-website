@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Chinese Restaurant</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav id="header-nav" class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="index.html" class="float-left">
+                            <div id="logo-img" class="d-none d-sm-block" alt="Logo Image"></div>
+                        </a>
+                        <div class="navbar-brand">
+                            <a href="index.html"><h1>Thao Restaurant</h1></a>
+                            <div>
+                                <img src="https://png.pngtree.com/png-vector/20190504/ourmid/pngtree-star-logo-graphic-design-template-vector-png-image_1020005.jpg" height="25" widhth="25">
+                                <span>Certificate</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" id="nav-hidden-button" class="d-block d-md-none collapsed" data-toggle="collapse" data-target="#data" aria-expanded="false">
+                        <span class="navbar-toggler-icon navbar-dark"></span>
+                    </button>
+                    <div id="data" class="">
+                        <ul id="nav-list" class="nav navbar-right">
+                            <li class="list-element"><a href="index.html" class="">Menu</a></li>
+                            <li class="list-element"><a href="index.html" class="">About</a></li>
+                            <li class="list-element"><a href="index.html" class="">Reward</a></li>
+                        </ul>
+                        <div id="phone">Phone Number
+                            <p id="telephone"><a href="tel:0337922756">0337922756</a></p>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container" id="main-container">
+            <div id="main-img">
+                <img id="main-img-tag" class="img-fluid" src="https://media-cdn.tripadvisor.com/media/photo-s/1a/b8/46/6d/london-stock.jpg" alt="Restaurant's Image">
+            </div>
+
+            <div class="row" id="home-tiles">
+                <div class="col-md-4 col-sm-6">
+                    <a href="#"><div id="menu-tile"><span class="align-bottom align-center">Menu</span></div></a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="#"><div id="specific-tile"><span>Specific</span></div></a>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <a href="#"><div id="map-tile"><span>Map</span></div></a>
+                </div>
+            </div>
+        </div>
+        <footer class="page-footer pt-4" id="footer">
+            <div class="container text-center text-md-left" id="">
+                <div class="row" id="footer-info">
+                    <section class="col-md-4 col-sm-4" id="">
+                        <span>Hours:</span>
+                        <p>Open: 8h30 AM</p>
+                        <p>Close: 9h00 PM</p>
+                        <p>Close in the weekend</p>
+                    </section>
+                    <section class="col-md-4 col-sm-4 d-none d-sm-block" id="">
+                        <p>The best restaurant in the Bac Ninh province. The brand has 40-year history.</p>
+                        <p>"Amazing foods, I really love the food in this restaurant". A customer said.</p>
+                    </section>
+                    <section class="col-md-4 col-sm-4 d-none d-sm-block" id="">
+                        <span>Address:</span>
+                        <p>80, 128, Kim Nguu, Thanh Nhan, Ha Ba Trung, Ha Noi</p>
+                        <p>It takes about 15 minutes to go to my restaurant from the HUST.</p>
+                    </section>
+                </div>
+            </div>
+            <div class="footer-copyright text-center py-3" id="copy-right">Thao Nguyen The &copy; 2022</div>
+        </footer>
+    </body>
+</html>

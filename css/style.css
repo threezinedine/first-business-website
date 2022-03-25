@@ -1,0 +1,129 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f
+}
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img{
+    background: url("../images/150_150_logo.png") no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+
+.navbar-brand {
+    text-transform: UPPERCASE;
+}
+
+.navbar-brand a h1 {
+    font-size: 1.2em;
+    color: #888;
+    text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-brand div span {
+    font-size: 0.8em;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none; 
+}
+
+#nav-list li{
+    padding: 5px;
+    margin: 10px;
+}
+
+#nav-list li:hover {
+    background-color: #eee;
+}
+
+#nav-list li:hover a {
+    text-decoration: none;
+}
+
+#phone {
+    margin: 23px;
+}
+
+#telephone {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+#nav-hidden-button:hover {
+    background-color: #888;
+}
+
+#main-container {
+    margin-top: 10px;
+}
+
+#main-img {
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+#main-img-tag {
+    width: 100%;
+    border-radius:3px;
+    padding: 2px;
+}
+
+
+#menu-tile {
+    background: url("https://media.istockphoto.com/vectors/chalkboard-restaurant-menu-template-vector-id976693636?k=20&m=976693636&s=612x612&w=0&h=rT_vHmIXQa3jrvTLTvUDxEvXIjNvKQIAuZsRe25uy2E=");
+}
+
+#specific-tile {
+    background: url("https://thumbs.dreamstime.com/b/specific-message-recycled-paper-note-pinned-cork-board-concept-image-52024587.jpg");
+}
+
+#map-tile {
+    background: url("https://media.wired.com/photos/59269cd37034dc5f91bec0f1/191:100/w_1280,c_limit/GoogleMapTA.jpg");
+}
+
+#menu-tile, #specific-tile, #map-tile{
+    height: 250px;
+    width: 100%;
+    position: relative;
+    margin-top: 15px;
+    border: 2px solid #3F0C1F;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#menu-tile:hover, #specific-tile:hover, #map-tile:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile span, #specific-tile span, #map-tile span{
+    position: absolute;
+    width: 100%;
+    height: 2em;
+    bottom: 0;
+    text-align: center;
+    text-transform: UPPERCASE;
+    background-color: #000;
+    color: #fff;
+    border-radius: 2px;
+    opacity: .8;
+}
+
+#footer {
+    margin-top: 4px;
+    background-color: #727573;
+    color: #fff;
+}
+
+#footer-info span {
+    font-size: 20px;
+}
